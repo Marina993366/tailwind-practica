@@ -8,7 +8,7 @@
   </head>
   <body>
     <!-- Header -->
-    <header class="flex items-center justify-between p-4 bg-background text-foreground">
+    <header class="fixed top-0 w-full z-50 flex items-center justify-between p-4 bg-background text-foreground">
       <h1 class="font-bold">Mi portafolio</h1>
       <nav id="main-nav" class="hidden md:flex md:gap-4 absolute md:static top-16 right-4 bg-background md:bg-transparent p-4 md:p-0 rounded shadow md:shadow-none">
         <a href="#inicio" class="hover:text-blue-500">Inicio</a>
@@ -25,11 +25,11 @@
     <!-- Sección Hero -->
     <section class="flex flex-col md:flex-row items-center justify-around bg-gradient-to-r from-primary to-secondary text-primary-foreground py-12 px-4 gap-4">
       <div class="text-center md:text-left">
-        <h1 class="text-4xl md:text-5xl font-bold mb-4">Bienvenido/a a mi portafolio</h1>
-        <p class="text-xl mb-6">Hola! Soy una desarrolladora web en formación y creé este portafolio para mostrar mis habilidades y proyectos.</p>
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">Desarrolladora Python & Web en formación</h1>
+        <p class="text-xl mb-6 max-w-xl">Desarrollo proyectos frontend modernos y aplicaciones en Python, con foco en código claro, buenas prácticas y aprendizaje continuo.</p>
         <div class="flex flex-col md:flex-row gap-4">
-          <a class="px-6 py-3 bg-secondary text-primary-foreground rounded-md shadow-md hover:bg-primary" href="#frontend">Frontend</a>
-          <a class="px-6 py-3 bg-primary text-primary-foreground rounded-md shadow-md hover:bg-secondary" href="#python">Python</a>
+          <a class="px-6 py-3 bg-secondary text-primary-foreground rounded-md shadow-md hover:bg-primary" href="#frontend">Ver proyectos Frontend</a>
+          <a class="px-6 py-3 bg-primary text-primary-foreground rounded-md shadow-md hover:bg-secondary" href="#python">Ver proyectos Python</a>
         </div>
       </div>
       <div>
@@ -54,17 +54,17 @@
     <section class="bg-muted text-foreground py-12 px-4 text-center">
       <h2 id="frontend" class="text-3xl font-bold mb-6">Mis proyectos de Frontend</h2>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <div class="bg-card p-6 rounded shadow-md hover:translate-y-[-5px] transition">
+        <div class="bg-card p-6 rounded shadow-md hover:translate-y-[-5px] transition duration-300">
           <h3 class="text-2xl font-bold mb-2">Portfolio con Tailwind</h3>
           <p class="mb-4">Sitio web responsive desarrollado con Tailwind CSS.</p>
           <a href="https://marina993366.github.io/tailwind-practica/" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline">Ver repositorio →</a>
         </div>
-        <div class="bg-card p-6 rounded shadow-md hover:translate-y-[-5px] transition">
+        <div class="bg-card p-6 rounded shadow-md hover:translate-y-[-5px] transition duration-300">
           <h3 class="text-2xl font-bold mb-2">Landing Page con Bootstrap</h3>
           <p class="mb-4">Sitio web responsive desarrollado con Bootstrap.</p>
           <a href="https://marina993366.github.io/bootstrap-practica/" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline">Ver sitio →</a>
         </div>
-        <div class="bg-card p-6 rounded shadow-md hover:translate-y-[-5px] transition">
+        <div class="bg-card p-6 rounded shadow-md hover:translate-y-[-5px] transition duration-300">
           <h3 class="text-2xl font-bold mb-2">Landing Page con Bulma</h3>
           <p class="mb-4">Sitio web responsive desarrollado con Bulma.</p>
           <a href="https://marina993366.github.io/bulma-practica/" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline">Ver sitio →</a>
@@ -73,20 +73,20 @@
     </section>
 
     <!-- Sección Proyectos con Python -->
-    <section class="bg-muted text-foreground py-12 px-4 text-center">
+    <section class="bg-muted text-foreground py-12 px-4 text-center pt-20">
       <h2 id="python" class="text-3xl font-bold mb-6">Mis proyectos con Python</h2>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <div class="bg-card p-6 rounded shadow-md hover:translate-y-[-5px] transition">
+        <div class="bg-card p-6 rounded shadow-md hover:translate-y-[-5px] transition duration-300">
           <h3 class="text-2xl font-bold mb-2">Voley-CLI</h3>
           <p class="mb-4">Aplicación simple en Python que permite registrar partidos de vóley desde la consola.</p>
           <a href="https://github.com/Marina993366/voley-score-cli-python" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline">Ver código →</a>
         </div>
-        <div class="bg-card p-6 rounded shadow-md hover:translate-y-[-5px] transition">
+        <div class="bg-card p-6 rounded shadow-md hover:translate-y-[-5px] transition duration-300">
           <h3 class="text-2xl font-bold mb-2">Texto a Voz</h3>
           <p class="mb-4">Desarrollo de una aplicación que extrae texto de una url ingresada por el usuario y lo convierte en un archivo de audio.</p>
           <a href="https://github.com/Marina993366/texto-a-voz-python" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline">Ver código →</a>
         </div>
-        <div class="bg-card p-6 rounded shadow-md hover:translate-y-[-5px] transition">
+        <div class="bg-card p-6 rounded shadow-md hover:translate-y-[-5px] transition duration-300">
           <h3 class="text-2xl font-bold mb-2">Juego Arcade Pong</h3>
           <p class="mb-4">Juego clásico Pong desarrollado en Python usando Turtle, con marcador, aceleración de pelota y fin de partida.</p>
           <a href="https://github.com/Marina993366/Pong_python" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline">Ver código →</a>
