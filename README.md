@@ -1,8 +1,9 @@
 # 🌐 Portfolio Web – Marina Acerbi
 
-Portfolio personal desarrollado con **HTML** y **Tailwind CSS**, donde presento mis proyectos de **Frontend** y **Python**, junto con un breve resumen de mi perfil profesional.
+Portfolio personal desarrollado con **HTML** y **Tailwind CSS**, donde presento mis proyectos de **Frontend** y **Python**, junto con un resumen de mi perfil profesional.
 
-🔗 **Demo online:** *()*  
+🔗 **Demo online:**  
+👉 https://marina993366.github.io/tailwind-practica/
 
 ---
 
@@ -21,7 +22,7 @@ El objetivo es contar con un sitio claro, responsive y profesional que permita:
 
 - **HTML5**
 - **Tailwind CSS**
-- **JavaScript** (funcionalidades simples)
+- **JavaScript** (interacciones simples)
 - **Git & GitHub**
 - **Diseño responsive (mobile first)**
 
@@ -29,11 +30,11 @@ El objetivo es contar con un sitio claro, responsive y profesional que permita:
 
 ## 📁 Secciones del sitio
 
-- **Hero / Inicio**
-- **Sobre mí**
-- **Proyectos Frontend**
-- **Proyectos Python**
-- **Contacto**
+- Hero / Inicio
+- Sobre mí
+- Proyectos Frontend
+- Proyectos Python
+- Contacto
 
 ---
 
@@ -44,12 +45,11 @@ El sitio está optimizado para:
 - 💻 Tablet
 - 🖥️ Desktop
 
-Incluye menú hamburguesa para dispositivos móviles.
+Incluye menú hamburguesa para navegación en dispositivos móviles.
 
 ---
 
 ## 📬 Contacto
 
-✉️ Email: marinaacerbi@hotmail.com
-
+✉️ Email: marinaacerbi@hotmail.com  
 🐙 GitHub: https://github.com/Marina993366
